@@ -77,7 +77,7 @@ SMEX_USERS = [5275980328]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
-async def start_Nobita():
+async def start_R4V4N():
     global idk
     global ydk
     global wdk
