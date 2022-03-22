@@ -1031,7 +1031,7 @@ async def _(e):
         if len(e.text) == 7:
             bc = R4V4N[0]
             bc = int(bc)
-            text = "R4V4N Spam Bot Leaving....."
+            text = "Leaving....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
