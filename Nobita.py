@@ -1526,7 +1526,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥\n𝐑𝟒𝐕𝟒𝐍 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓\nᑭᎥᑎǤ !!`{ms}` ᴍs")
+        await event.edit(f"𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃🔥\n𝐌𝐀𝐇𝐀𝐊𝐀𝐀𝐋 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓\n𝐏𝐈𝐍𝐆 !!`{ms}` ᴍs")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1629,7 +1629,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "⚜️𝐂𝐌𝐃'𝐒 𝐈𝐍 𝐑𝟒𝐕𝟒𝐍 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓⚜️\n\n🔰𝐔𝐓𝐈𝐋𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰\n.ping\n.restart\n\n🔰𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰:\n.bio\n.join\n.leave\n.pjoin\n.pleave\n\n🔰𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰:\n.spam\n.delayspam\n.bigspam\n.raid\nn\nFor more help regarding usage of plugins type plugins name"
+       text = "⚜️𝐂𝐌𝐃'𝐒 𝐈𝐍 𝐃𝐈𝐒𝐓𝐑𝐎𝐘𝐄𝐑 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓⚜️\n\n🔰𝐔𝐓𝐈𝐋𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰\n.ping\n.restart\n\n🔰𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰:\n.bio\n.join\n.leave\n.pjoin\n.pleave\n\n🔰𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰:\n.spam\n.delayspam\n.bigspam\n.raid\nn\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
